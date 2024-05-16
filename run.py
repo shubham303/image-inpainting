@@ -12,7 +12,7 @@ from diffusers import AutoPipelineForInpainting
 import random
 from diffusers import StableVideoDiffusionPipeline
 import torch
-from diffusers.utils import load_image, export_to_gif
+from diffusers.utils import load_image, export_to_video
 
 
 STABLE_DIFFUSION_MODEL = "runwayml/stable-diffusion-v1-5"
@@ -127,7 +127,7 @@ def main():
 
 	if args.video_output_path:
 		frames = create_video(image)
-		export_to_gif(frames, args.video_output_path)
+		export_to_video(frames, args.video_output_path,fps=7)
 	
 
 
