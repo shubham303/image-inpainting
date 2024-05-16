@@ -1,6 +1,9 @@
 # Image Generation and Inpainting Tool
 This repository provides a tool for generating images that align with a given text prompt while incorporating an unaltered object image into the scene. The tool ensures the generated images look natural and can also create videos from these images using Stable Diffusion models. The solution leverages publicly available pre-trained checkpoints and various libraries to achieve this goal.
 
+[click here](https://docs.google.com/document/d/14c85QpdgfYlPWbJ1camb6EvhMCtgehugWUtPL2xLTv4/edit?usp=sharing)
+ for detailed documentation.
+ 
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
